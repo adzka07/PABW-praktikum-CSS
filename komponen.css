@@ -1,0 +1,131 @@
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: var(--space-2);
+  font-size: var(--text-sm);
+}
+
+img {
+  border: 1px solid var(--color-border);
+}
+
+.panel {
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.section-heading {
+  margin-bottom: var(--space-4);
+}
+
+.section-heading p {
+  margin-bottom: 0;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-surface);
+}
+
+caption {
+  margin-bottom: var(--space-2);
+  text-align: left;
+  font-weight: 600;
+}
+
+th,
+td {
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  text-align: left;
+}
+
+th {
+  background: var(--color-surface);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  max-width: 32rem;
+}
+
+.form-kolom {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+label {
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+input,
+button {
+  font: inherit;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+input {
+  background: var(--color-bg);
+  color: var(--color-fg);
+}
+
+button {
+  width: fit-content;
+  background: var(--color-primary);
+  color: var(--color-surface);
+  cursor: pointer;
+}
+
+.tombol-tema {
+  display: inline-block;
+  margin-bottom: var(--space-3);
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  font-size: var(--text-sm);
+}
+
+.pesan-galat {
+  display: none;
+  margin: 0;
+  color: var(--color-danger);
+  font-size: var(--text-sm);
+}
+
+.form-kolom:has(input:user-invalid) .pesan-galat {
+  display: block;
+}
+
+input:user-invalid {
+  border-color: var(--color-danger);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.lencana {
+  font-weight: 600;
+}
+
+.prioritas-tinggi {
+  color: var(--color-danger);
+}
+
+.prioritas-sedang {
+  color: var(--color-primary);
+}
