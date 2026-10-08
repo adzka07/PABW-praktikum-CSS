@@ -1,0 +1,39 @@
+/* Ikut pengaturan sistem: lapis semantik saja yang diganti */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg:      var(--dark-bg);
+    --color-fg:      var(--dark-fg);
+    --color-surface: var(--dark-surface);
+    --color-border:  var(--dark-border);
+    --color-primary: var(--dark-primary);
+    --color-danger:  var(--dark-danger);
+    --color-focus:   var(--dark-focus);
+    --shadow-1:      var(--dark-shadow);
+  }
+}
+
+/* CSS */
+.pengalih-tema { position: absolute; opacity: 0; pointer-events: none; }
+ 
+/* Pilihan manual HARUS berada setelah blok media query,
+   supaya menang saat keduanya menyala bersamaan. */
+:root:has(#tema:checked),
+:root[data-theme="dark"] {
+  --color-bg:      var(--dark-bg);
+  --color-fg:      var(--dark-fg);
+  --color-surface: var(--dark-surface);
+  --color-border:  var(--dark-border);
+  --color-primary: var(--dark-primary);
+  --color-danger:  var(--dark-danger);
+  --color-focus:   var(--dark-focus);
+}
+
+:root[data-theme="light"] {
+  --color-bg: var(--light-bg, #fafafa);
+  --color-fg: var(--light-fg, #0F172A);
+  --color-surface: var(--light-surface, #fad6fa);
+  --color-border: var(--light-border, #0F172A);
+  --color-primary: var(--light-primary, #8d04bb);
+  --color-danger: var(--light-danger, #ff002b);
+  --color-focus: var(--light-focus, #ff00bf);
+}
