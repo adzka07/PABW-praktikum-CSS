@@ -4,6 +4,8 @@
 
 Data tugas dipindahkan ke `data/proyek.json` dan diambil melalui `js/api.js` menggunakan `fetch`, `async/await`, pemeriksaan `response.ok`, dan `try/catch`. `app.js` merakit alur aplikasi, sedangkan `dom.js` menangani render, filter, keadaan memuat, gagal, dan kosong.
 
+Sumber data akhir menggunakan alamat Raw GitHub agar halaman mengambil `proyek.json` dari repositori publik, bukan hanya dari file lokal.
+
 ### Deklarasi AI
 
 AI membantu menyiapkan struktur salinan Pertemuan 9, memindahkan data ke JSON, menyusun pemisahan `api.js`, `app.js`, dan `dom.js`, serta memeriksa alur asynchronous. Saya mengerjakan dan memahami data tugas, tampilan halaman, kategori filter, serta pengujian perilaku halaman sesuai worksheet.
