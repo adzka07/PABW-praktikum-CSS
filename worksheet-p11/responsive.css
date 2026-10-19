@@ -1,0 +1,101 @@
+
+.isi {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    "utama"
+    "sisi"
+    "bawah";
+  gap: var(--space-4);
+}
+
+.isi > .sisi,
+.isi > .utama,
+.isi > .bawah {
+  grid-area: auto;
+  min-width: 0;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 36rem) {
+  body {
+    padding: var(--space-2);
+  }
+
+  .navbar {
+    padding-block: var(--space-3);
+  }
+
+  .header-baris,
+  .navbar nav ul {
+    align-items: stretch;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+
+  .navbar nav a,
+  .tombol-tema {
+    display: block;
+    width: 100%;
+  }
+
+  .isi {
+    padding-block: var(--space-4);
+  }
+
+  .sisi {
+    grid-template-columns: 1fr;
+  }
+
+  .sisi .gambar-utama {
+    max-width: 12rem;
+  }
+
+  h1 {
+    font-size: clamp(1.6rem, 8vw, var(--text-3xl));
+  }
+
+  h2 {
+    font-size: clamp(1.25rem, 6vw, var(--text-xl));
+  }
+}
+
+
+@media (min-width: 60rem) {
+  .isi {
+    grid-template-columns: minmax(12rem, 16rem) minmax(0, 1fr);
+    grid-template-areas:
+      "sisi utama"
+      "sisi bawah";
+  }
+
+  .isi > .sisi {
+    grid-area: sisi;
+  }
+
+  .isi > .utama {
+    grid-area: utama;
+  }
+
+  .isi > .bawah {
+    grid-area: bawah;
+  }
+}
