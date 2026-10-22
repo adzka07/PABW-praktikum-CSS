@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "judul": "Worksheet DOM dan Interaktivitas",
+    "mataKuliah": "PABW",
+    "tenggat": "12 Oktober 2026",
+    "selesai": true,
+    "prioritas": "Tinggi",
+    "kategori": "pabw"
+  },
+  {
+    "id": 2,
+    "judul": "Analisis Manajemen Proyek Teknologi Informasi",
+    "mataKuliah": "MPTI",
+    "tenggat": "15 Oktober 2026",
+    "selesai": false,
+    "prioritas": "Tinggi",
+    "kategori": "mpti"
+  },
+  {
+    "id": 3,
+    "judul": "Laporan Keamanan Jaringan",
+    "mataKuliah": "SJK",
+    "tenggat": "18 Oktober 2026",
+    "selesai": false,
+    "prioritas": "Sedang",
+    "kategori": "sjk"
+  },
+  {
+    "id": 4,
+    "judul": "Perancangan Sistem Digital",
+    "mataKuliah": "FSD",
+    "tenggat": "21 Oktober 2026",
+    "selesai": false,
+    "prioritas": "Sedang",
+    "kategori": "fsd"
+  },
+  {
+    "id": 5,
+    "judul": "Refleksi Pendidikan Kewarganegaraan",
+    "mataKuliah": "PKN",
+    "tenggat": "24 Oktober 2026",
+    "selesai": false,
+    "prioritas": "Rendah",
+    "kategori": "pkn"
+  },
+  {
+    "id": 6,
+    "judul": "Implementasi Event pada Halaman Web",
+    "mataKuliah": "PABW",
+    "tenggat": "26 Oktober 2026",
+    "selesai": false,
+    "prioritas": "Tinggi",
+    "kategori": "pabw"
+  },
+  {
+    "id": 7,
+    "judul": "Dokumen Rencana Pengembangan Sistem",
+    "mataKuliah": "MPTI",
+    "tenggat": "28 Oktober 2026",
+    "selesai": false,
+    "prioritas": "Sedang",
+    "kategori": "mpti"
+  },
+  {
+    "id": 8,
+    "judul": "Simulasi Keamanan Akses Jaringan",
+    "mataKuliah": "SJK",
+    "tenggat": "30 Oktober 2026",
+    "selesai": false,
+    "prioritas": "Sedang",
+    "kategori": "sjk"
+  },
+  {
+    "id": 9,
+    "judul": "Evaluasi Struktur Data Aplikasi",
+    "mataKuliah": "FSD",
+    "tenggat": "2 November 2026",
+    "selesai": false,
+    "prioritas": "Rendah",
+    "kategori": "fsd"
+  },
+  {
+    "id": 10,
+    "judul": "Makalah Hak dan Kewajiban Warga Negara",
+    "mataKuliah": "PKN",
+    "tenggat": "4 November 2026",
+    "selesai": false,
+    "prioritas": "Rendah",
+    "kategori": "pkn"
+  }
+]
